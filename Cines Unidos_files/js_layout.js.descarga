@@ -1,0 +1,50 @@
+﻿$(document).ready(function () {
+    //***************Iniciar sesión*****************************/
+    $(".micuenta").click(function () {
+        $(".caja-iniciar-sesion-01").stop();
+        $(".caja-iniciar-sesion-01").animate({ "height": "80px" }, 400);
+    });
+    $(".micuenta").hover(function () {
+        $(".caja-iniciar-sesion-01").stop();
+        $(".caja-iniciar-sesion-01").animate({ "height": "80px" }, 400);
+    },
+function () {
+    jQuery(this).find(".descrip1").stop();
+    $(".caja-iniciar-sesion-01").stop();
+    $(".caja-iniciar-sesion-01").animate({ "height": "0px" }, 400);
+});
+    //***************Seleccionar ciudad sesión*****************************/
+    $("#ciudad_id").selectbox();
+});
+$('#ciudad_id').change(function () {
+    var sb = $(this).attr("sb");
+    var sbSelector = document.getElementById("sbSelector_" + sb);
+    var city = sbSelector.innerHTML;
+
+    var action = getAction();
+    switch (action) {
+        case "Theater":
+            document.location.href = '/Cines/' + city;
+            break;
+        case "Movie":
+            document.location.href = '/Peliculas/' + city;
+            break;
+        case "DetailMovie":
+            var movieId = getMovieId();
+            document.location.href = '/Pelicula/' + city + '/' + movieId;
+            break;
+        default:
+            document.location.href = '/Inicio/' + city;
+    }
+});
+
+function getCity() {
+    var select = document.getElementById("ciudad_id");
+    var sb = select.getAttribute("sb");
+    var sbSelector = document.getElementById("sbSelector_" + sb);
+    var city = sbSelector.innerHTML;
+    return city;
+}
+$("#botonright").click(function () {
+    $("#menu_top").toggleClass("mostrar-right");
+});

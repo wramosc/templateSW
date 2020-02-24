@@ -1,0 +1,1975 @@
+﻿@media screen and (min-width: 993px){
+     .col5 {
+         left: 7%;
+         width: 156px;
+         float: left;
+         position: relative;
+         min-height: 1px;
+     }
+
+     .poster {
+         width: 156px;
+         height: 246px;
+     }
+}
+@media  screen and (max-width: 992px) {
+     .col5 {
+          width: 25%;
+          float: left;
+          position: relative;
+          min-height: 1px;
+          padding-right: 15px;
+          padding-left: 15px;
+     }
+}
+@media screen and (max-width: 767px) {
+    .col5 {
+        width: 33%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}
+@media screen and (max-width:1023px) {
+    ul.mnu_salasciudad {
+        background: none;
+        height: auto;
+    }
+
+    ul.mnu_salasciudad li {
+        display: block !important;
+        text-align: center !important;
+    }
+
+    ul.mnu_salasciudad li.mnu_salasciudadact a, ul.mnu_salasciudad li a, ul.mnu_salasciudad li a:hover {
+        width: 100%;
+        border-bottom: 1px solid #C1C1C1;
+        border-right: 0px;
+    }
+
+    ul.mnu_salasciudad li a {
+     box-shadow: inset 0px 12px 14px -13px #8A8A8A, inset 0px -12px 8px -13px #8A8A8A;
+    }    
+}
+/*COMENTADO POR �NGEL*/
+/*@media screen and (max-width: 1279px) and (min-width: 1024px) {
+    .mod_lista_peliculas ul li {
+        margin: 0 0 50px 8px;
+        width: 190px;
+        height: 271px;
+        float: left;
+    }
+}*/
+@media screen and (max-width: 1025px) {
+    #advertising {
+        display: none;
+    }
+    .col5 {
+         left: -0.4%;
+         width: 20%;
+         float: left;
+         position: relative;
+         min-height: 1px;
+     }
+    .poster {
+         width: 166px;
+         height: 237px;
+     }
+}
+@media screen and (max-width: 1023px) and (min-width: 768px){
+    .mod_lista_peliculas ul li {
+        margin: 0 0 45px 10px;
+        width: 175px;
+        height: 250px;
+        font-size: 1em;
+        margin: 5px 2px 2px 5px !important;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .an_mod_lista_peliculas,.an_mod_lista_peliculas ul{
+       width:auto;
+       padding:0px;
+    }
+    .horarios_detalle_peli{
+        min-height: 350px;
+    }
+    .intersticial{
+	    float: right;
+	    position: fixed;
+	    z-index: 10000;
+	    /* margin-right: 0; */
+	    display: inline-block;
+	    top: 35%;
+	    right: 0;
+	}
+   
+    ul.mnu_salasciudad li {
+        display: inline;
+    }
+        ul.mnu_salasciudad li a {
+            display: block;
+            float: left;
+        }    
+    ul.mnu_salasciudad li a:hover {
+       display: block;   
+    }
+
+    ul.mnu_salasciudad li.mnu_salasciudadact a, ul.mnu_salasciudad li.mnu_salasciudadact a:visited {
+        display: block;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .registro .phone span {
+        display: block;
+    }
+    .boton_lateral{
+        padding: 9px;
+    }
+	.sesion form span{
+		width: inherit;	
+	}
+	form .registro  input[type="text"], 
+    form .registro  select,
+    form .registro  input[type="password"]{
+		max-width: inherit;		
+	}
+    .botonera_ppal ul > li > a{
+        font-size: .67em;
+    }
+    .redes_sociales > ul > li > a {
+        font-size: 12px;
+        background: #333;
+        margin: 2px;
+    }
+	.registro .sexo{
+		max-width: inherit;
+	}
+	form .registro  textarea{
+		max-width: 100%!important;
+        width:100%!important;
+		display: block;
+	}
+	.boton_lateral {		
+		font-size: 16px;
+	}
+	a.actividades_2{
+		font-size: 14px;
+		width: 100%;
+		margin: 4px 0px;
+	}	
+	.registro .bg-grey .info p{
+		padding:0px;
+	}
+	.peliculas .peli-hover{
+		position: relative;
+		display: none;
+	}
+	.peliculas .peli-hover span{
+		display: none;
+	}
+	
+	.peliculas .horario, .peliculas .nombre{
+		text-align: center;
+		padding: 10px;
+	}
+	.peliculas .horario, .peliculas .clasificacion{
+		padding: 14px;
+	}
+	.cines .sala_dir.text-left{
+		text-align: center;
+	}
+	.cines .info-salas ul li img{
+		display: block;
+		margin: 0 auto;
+	}
+	.cines .info-salas ul li {
+		display: block;
+		border: 1px solid #eaeaea;
+		height: 100%;
+		padding: 7px 10px;
+		width: 40%;
+		margin: 5px auto;
+	}
+	.cines .info-salas ul li span{
+		display: inherit;
+	}
+	.compra .red-title .info-2 .nombre h4{
+		display: inherit;
+		float: inherit;
+	}
+	.compra .red-title .info-2 .nombre h4 + h4{
+		float: inherit;
+	}
+	.compra .detalle-compra h4,.compra .detalle-compra .factura,.pago .detalle-compra h4,.pago .detalle-compra .factura{
+		margin:0 auto;
+	}
+	.pago .form.row{
+		margin: 0 auto;
+		width: 60%;
+	}
+	.pago .tiempo-restante{
+		margin: 0 auto;
+	}
+	.pago .head .red-title h4{
+		margin: 0px;
+	}
+	.pago .asiento span.hidden-lg.hidden-md{
+		float: left;
+	}
+	.detalle .peliculas{
+		height: auto;
+	}
+	.detalle .nav-tabs>li{
+		float: left;
+	}
+	.detalle .row.info img{
+		margin: 10px auto;
+	}
+    .time_pick{
+        width:100%;
+        z-index:10;
+    }
+    #contacto_phone{
+        max-width:100%!important;
+    }
+    #contacto_code{
+        max-width: 20%!important;        
+        margin-right: auto!important;
+        margin: 0 auto;
+    }
+    .portfolio_items{
+       padding: 0px;
+    }
+    /*ul.mod_salapelilist li span.peli,
+    ul.mod_salapelilist li span.hora a, 
+    ul.mod_pelivelomidlist span.hora a, 
+    ul.mod_detalle_peli li span.hora a,
+    ul.mod_salapelilist li span.hora,
+    ul.mod_salapelilist li a
+    {
+        float:initial;
+        display:initial;
+    }*/
+    ul.mod_salapelilist li span.censura b{
+        float:initial;
+        position:initial;
+    }
+    .margin-info .text-center{
+        text-align:center;
+        margin:2px 0px;   
+    }
+    .compratiempo {
+        background: transparent;
+        width: 80px;
+        height: 34px;
+        float: right;
+        background-color: #c02328;
+        position: fixed;
+        top: 117px;
+          right: 0;
+    }
+    .compratiempo p {
+        background: url(https://cinesunidosweb.blob.core.windows.net:443/img/crono-cu-icon.png)no-repeat 0 2px;
+        margin: 0 auto;
+        font-size: 14px;
+        padding-top: 0;
+        width: 65px;
+        height: 20px;
+    }
+    .compratiempoflota {
+        padding: 5px;
+        background: #c02328;
+        color: #fff;
+        -webkit-box-shadow: inset 0 0 6px 0 rgba(0, 0, 0, 0.50);
+        -moz-box-shadow: inset 0 0 6px 0 rgba(0, 0, 0, 0.50);
+        box-shadow: inset 0 0 6px 0 rgba(0, 0, 0, 0.50);
+        width: 70px;
+        height: auto;
+        display: block;
+        position: fixed;
+        top: 65px;
+        right: 0;
+        z-index: 1000;
+    }
+    .compratiempoflota p {
+        margin: 0 auto;
+        color: #fff;
+        font-size: 1em;
+        line-height: 1em;
+        text-align: center;
+        text-transform: uppercase;
+        height: auto;
+        display: block;
+    }
+    .publicidad div:first-child{
+        box-shadow:none;
+    }
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:359px) {
+    .asientositems {
+        width: 280px;
+        height: 300px;
+        display: block;
+        position: relative;
+        top: 20px;
+        left: 4px;
+        overflow-y: hidden;
+        margin-left: 5px;
+    }
+    .asientositems {
+        max-width: 250px;
+        height: auto;
+        display: block;
+        position: relative;
+        top: 20px;
+        left: 4px;
+        overflow-y: hidden;
+        margin-left: 5px;
+        margin-bottom: 60px;
+    }
+    #map {
+        zoom: 33%;
+    }
+    .an_mod_lista_peliculas ul li .v_cinesj .v_ampliar a, .an_mod_lista_peliculas ul li .v_cinesj2 .v_ampliar a, .an_mod_lista_peliculas_v2 ul li .v_cinesj .v_ampliar a, .an_mod_lista_peliculas_v2 ul li .v_cinesj2 .v_ampliar a {
+        color: #FFF;
+        font-size: 10px;
+        float: right;
+        width: auto;
+        height: auto;
+        margin-right: 20px;
+        font-weight: 500;
+    }
+    .mod_lista_peliculas {
+        padding: 0;
+        width: 320px;
+        height: auto;
+        display: block;
+        left: 0;
+    }
+    .mod_lista_peliculas ul {
+        padding-top: 0;
+        overflow: hidden;
+        width: 295px}
+    .mod_lista_peliculas ul li {
+        margin: 0 0 10px 5px;
+        width: 140px;
+        height: 200px;
+    }
+    .mod_lista_peliculas ul li img {
+        width: 140px;
+        height: 200px;
+        display: block;
+    }
+    .mod_lista_peliculas ul li a {
+        width: 140px;
+        height: 200px;
+        display: block;
+    }   
+     .v_cinesj {
+        height: 100%}
+    .v_cinesj ul {
+        margin-left: auto;
+        margin-right: auto;
+        height: 84%;
+        padding-top: 2px;
+    }
+    .v_cinesj ul li {
+        height: auto;
+        width: 95%;
+        padding-top: 0;
+        padding-bottom: 3px;
+        font-size: .8em;
+        margin-top: 2px!important;
+    }
+    .v_clasificacion {
+        font-size: 14px;
+        line-height: 18px;
+        z-index: 5;
+        position: relative;
+        top: -8px;
+        margin-bottom: 0px;
+    }
+    .v_cinesj2 {
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        position: absolute;
+        top: 0;
+        left: 300px;
+    }
+     .v_horarios {
+        width: 89.9%;
+        display: inline-block;
+        margin-top: -7px;
+    }
+    .v_cinesj2 .v_horarios ul {
+        margin-left: 0;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    margin-bottom: 10px;
+    }
+    .v_cinesj2 .v_horarios ul a {
+        margin-left: 3px;
+    }
+    .v_cinesj2 .v_horarios ul li {
+        padding: 4px 2px 3px 2px;
+        width: 41%
+    }    
+     .an_mod_lista_peliculas .container-fluid .row
+    {
+        width: 100%;
+    }
+     .an_mod_lista_peliculas .container-fluid .row .col-xs-6
+    {
+        padding: 0;
+    }     
+    nav.mnufooter_secc {
+        margin: 0;
+        width: 308px;
+        height: 20px;
+        top: 12px;
+    }
+    nav.mnufooter_secc ul {
+        height: 25px;
+    }
+    nav.mnufooter_secc ul li {
+        padding: 0 5px;
+        font-size: .700em;
+        height: 25px;
+    }
+}
+@media screen and (min-width:360px) and (max-width:479px) {
+    .asientositems {
+        width: 320px;
+        height: 245px;
+        position: relative;
+        top: 20px;
+        left: 0;
+        overflow-y: hidden;
+        margin-left: 5px;
+    }
+    #map {
+        zoom: 33%
+    }
+    
+    .mod_peliculas, .modulo-2 {
+        width: 330px;
+        height: 730px;
+        left: 2px;
+        display: inline;
+        position: initial;
+    }
+    .mod_peliculas ul {
+        padding-top: 5px;
+        width: 330px;
+        height: 710px;
+        overflow: hidden;
+        position: relative;
+    }
+    .mod_peliculas ul li {
+        margin: 0 2px 10px 2px;
+        width: 160px;
+        height: 228px;
+    }
+    .mod_peliculas ul li img {
+        width: 160px;
+        height: 228px;
+    }
+    .mod_peliculas ul li a {
+        width: 160px;
+        height: 228px;
+    }
+    .mod_peliculas ul li a:hover, .mod_peliculas ul li a:hover img {
+        width: 164px;
+        height: 234px;
+    }
+    .mod_peliculas ul li:first-child {
+        display: none;
+    }
+    .ptitulo_estrenos h2 {
+        font-size: 1em;
+    }
+    .mod_lista_peliculas {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .mod_lista_peliculas ul {
+        padding-top: 0;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    .mod_lista_peliculas ul li {
+        margin: 0 2px 10px 2px;
+        width: 160px;
+        height: 228px;
+    }
+    .mod_lista_peliculas ul li img {
+        width: 160px;
+        height: 228px;
+    }
+    .mod_lista_peliculas ul li a {
+        width: 160px;
+        height: 228px;
+    }
+    .mod_titulo_pelicula {
+        width: 160px;
+    }
+    .mod_titulo_pelicula h2 {
+        color: #c02328;
+        font-weight: 400;
+    }
+    .v_clasificacion{
+        line-height: 15px;
+        font-size: 15px;
+    }
+    .v_cinesj ul {
+        margin-left: auto;
+        margin-right: auto;
+        height: 83%}
+    .v_cinesj ul li {
+        padding-top: 3px;
+        font-size: .9em;
+        padding-bottom: 2px;
+        line-height: 6px;
+    }
+    .v_cinesj, .v_cinesj2 {
+        height: 100%}
+    .v_cinesj2 .v_horarios ul a {
+        margin-left: -3px;
+    }
+    .v_cinesj2 .v_horarios ul{
+        margin-left: 10px;
+    }
+    .v_cinesj2 .v_horarios ul li {
+        margin: 2px;
+        padding: 6px;
+        width: 32%;
+    }
+     .an_mod_lista_peliculas .container-fluid .row
+    {
+        width: 100%;
+    }
+     .an_mod_lista_peliculas .container-fluid .row .col-xs-6
+    {
+        padding: 0;
+    }     
+    nav.mnufooter_secc {
+        margin: 0;
+        width: 100%;
+        height: 50px;
+        top: 15px;
+    }
+    nav.mnufooter_secc ul {
+        height: 25px;
+    }
+    nav.mnufooter_secc ul li {
+        padding: 0 6px;
+        font-size: .750em;
+        height: 25px;
+    }
+}
+@media screen and (min-width:480px) and (max-width:539px) {
+    .asientositems {
+        width: 440px;
+        height: 45%;
+        display: block;
+        position: relative;
+        top: 20px;
+        left: 5px;
+        overflow-y: hidden;
+        margin-left: 0;
+    }
+    #map {
+        zoom: 65%
+    }
+}
+@media screen and (min-width:540px) and (max-width:599px) {
+    .asientositems {
+        width: 490px;
+        height: 360px;
+        display: block;
+        position: relative;
+        top: 20px;
+        left: 0;
+        overflow-y: hidden;
+        margin-left: 18px;
+    }
+    #map {
+        zoom: 65%
+    }
+}
+@media screen and (min-width:600px) and (max-width:640px) {
+    .asientositems {
+        width: 550px;
+        height: 360px;
+        top: 10px;
+        left: 0;
+        margin-left: 18px;
+    }
+    #map {
+        zoom: 80%;
+        margin-left: -2.5%;
+    }
+}
+@media screen and (min-width:642px) and (max-width:719px) {
+    .asientositems {
+        width: 590px;
+        height: 410px;
+        display: block;
+        position: relative;
+        top: 20px;
+        left: 0;
+        overflow-y: hidden;
+        margin-left: 18px;
+    }
+    #map {
+        zoom: 85%;
+    }
+}
+@media screen and (min-width:720px) and (max-width:767px) {
+    .asientositems {
+        width: 670px;
+        height: 410px;
+        display: block;
+        position: relative;
+        top: 10px;
+        left: 0;
+        overflow-y: hidden;
+        margin-left: 14px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .asientositems {
+        width: 690px;
+        height: 420px;
+        display: block;
+        position: relative;
+        top: 20px;
+        left: 0;
+        overflow: hidden;
+        margin-left: 27px;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    .asientositems {
+        width: 680px;
+        height: 380px;
+        top: 60px;
+        left: 0;
+        margin-left: 16px;
+    }
+}
+
+@media screen and (min-width:991px) and (max-width: 1199px) {
+    .comercio .custom-col .col-sm-4, 
+    .comercio .custom-col .col-lg-4{
+        width:328px;
+    }
+    .btn-info{
+        font-size:12px;
+    }
+    .custom-col_2 .custom-col .col-sm-4, 
+    .custom-col_2 .custom-col .col-lg-4{
+        width:300px;
+    }
+}
+
+@media screen and (max-width:1023px){
+    .horarios_censura{
+        margin-top:27px;
+    }
+    .boton_lateral{
+        height:104px;
+        padding: 9px;
+    }
+    #v_menu{
+        height:auto;
+    }
+    #v_menu .navbar-header {
+        float: none;
+        height:auto;
+    }
+     #v_menu .navbar-toggle {
+        display: block;
+    }
+     #v_menu .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+     #v_menu .navbar-collapse.collapse {
+        display: none!important;
+    }
+     #v_menu .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+     #v_menu .navbar-nav>li {
+        float: none;
+    } 
+     #v_menu .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+     #v_menu .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+     #v_menu .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+     #v_menu .collapsing {
+        overflow: hidden!important;
+    }
+     #title_cine .hidden-md{    
+        padding: 10px;
+        text-transform: uppercase;
+        color: #fff;
+        display:inline-block;
+    }
+}
+@media screen and (max-width:1023px){
+  .hidden-md {
+    display:inline-block !important;
+  }
+}
+@media screen and (max-width: 767px) {
+	a.margin-top-20{
+		display: block;
+	}
+    .mod_compra01det{
+        width: 440px;
+        margin: 0 auto;
+    }
+    .img_det_peli img{
+        float:initial;
+        margin:10px auto;
+    }
+    .img_det_peli p{
+        border-top: 1px dotted #A31E23;
+        padding: 10px 25px 0px 15px;
+    }
+    img.hidde-img{
+		display: block;
+	}
+    .margin-info{
+        text-align:center;
+    }    
+    ul.mod_salapelilist li span.hora a, 
+    ul.mod_pelivelomidlist span.hora a,
+    ul.mod_detalle_peli li span.hora a{
+        display: block;
+        width: 50%;
+        margin: 10px auto;
+        float:initial;
+    }
+    .registro .text-right{
+		text-align: center;
+	}
+}
+@media screen and (max-width:880px){
+    ul.mod_pelivelofinlist li{
+        width: 26%;
+        margin: 0px 4px;
+        height: auto;
+    }
+}
+@media screen and  (min-width: 768px) and (max-width: 991px) {
+
+	.redes_sociales {
+		display:none;
+	}
+
+	.botonera_ppal ul > li >a {
+		padding: 7px 8px;
+		font-size: 12px;
+	}
+
+	.boton_lateral {
+		float:left;
+		width: 33.33%;
+	}
+
+}
+@media screen and (min-width:1024px)  {
+    .salaleyenda {
+       margin-left:20px;
+    }
+
+    .pelivelotopimg{
+        height: 422.5px !important
+    } 
+
+    .contacto textarea{    
+        top:0px;
+    }
+}
+
+@media screen and (min-width: 642px) and (max-width: 1025px) {
+    .compradetboxint {
+        padding-top: 5px;
+        font-size: 10.5px;
+    }
+    .compradetboxint p span:first-child {
+        padding-right: 8px;
+        text-align: right;
+        width: 128px;
+        height: auto;
+        float: left;
+    }
+}
+@media screen and  (min-width: 600px) and (max-width: 768px) {
+	.pub-text > h4{
+		text-align: center;
+	}
+	.pub-text{
+		text-align: center;
+	}
+
+	.estrenos-info.bg-pattern .img-responsive{
+		width: 100%;
+		max-width: 200px;
+		margin: 0 auto;
+	}
+
+	.img-movie-prox{
+		width: 190px;
+	}
+
+	.dropdown-ciudades {
+		left: -60px;
+	}
+
+	.noshow {
+		display:none;
+	}
+	
+	.redes_sociales {
+		float: left;
+		margin-left: -35px;
+		margin-top: -43px;
+	}
+
+	.boton_lateral {
+		float: left;
+		width: 33.33%;
+		font-size: 12px;
+		min-height: 115px;
+	}
+
+	.logo{
+		width: 60%;
+	}
+
+	.ciudad{
+		font-size: 18px;
+	}
+
+
+	.menu-responsive{
+		width: 100%;
+	}
+
+	.menu-principal-responsive{
+		margin: 0;
+	}
+
+	.redes_sociales{
+		position: absolute;
+	}
+
+	.cuenta-menu{
+		top: -28px;
+		left: 100px;
+	}
+
+	.col-xs-6.movie {
+        left: 2%;
+		width: 32%;
+	}
+
+    .poster {
+        width: 176px;
+        height: 251px;
+    }
+    #post10 {
+        display:none;
+    }
+
+    #detailtitle {
+        text-align: center;
+    }
+    .compradetboxint {
+        padding-top: 5px;
+        font-size: 11.5px;
+    }
+    .compradetboxint p span:first-child {
+        margin-left: 25%;
+        padding-right: 8px;
+        text-align: right;
+        width: 128px;
+        height: auto;
+        float: left;
+    }
+    #totaltab {
+        text-align: center;
+    }
+    #img-merchant {
+        margin-top: 2.3em;
+    }
+    .mod_compra01tope .pelidatos span {
+        font-size: 4em;
+        top: -12.5px;
+        right: -20px;
+    }
+    .mod_compra01tope .pelinombre p.pelinombretit {
+        font-size: 1em;
+    }
+    .mod_compra01tope .peliasientos p {
+        font-size: 1.1em;
+    }
+    .asientositems {
+        max-width: 640px;
+        height: auto;
+        display: block;
+        position: relative;
+        top: 20px;
+        left: 4px;
+        overflow-y: hidden;
+        margin-left: 5px;
+        margin-bottom: 60px;
+    }
+    #map {
+        zoom: 70%;
+        height: 480px;
+    }
+}
+
+
+@media screen and (max-width:991px){
+    .comprabarrapeli, .comprabarracine, .comprabarrafecha {
+        font-size:12px
+    }
+}
+@media screen and (min-width:767px) and (max-width:991px){
+    #v_menu{
+        height:auto;
+    }
+    .cuenta-menu{
+		top: 35px;
+		left: -50px;
+	}
+}
+@media screen and (max-width: 767px){
+	.fondo_top {
+	    margin-top: 50px;
+	}
+	.cines .navbar-header .text-left.title{
+		display: inherit;
+	}
+	.cines .head_1.nav-tabs>li{
+		width: 100%;
+		
+	}
+	.cines .head_1.nav-tabs>li>a{
+		padding-left: 20px;
+		
+	}
+	#detalle-modal .modal-dialog{
+		width: inherit;
+	}
+    .panel-promociones .nav-tabs>li.active>a{
+        padding:5px;
+    }
+    .panel-promociones .nav-tabs>li.active>a:focus,.panel-promociones .nav-tabs>li.active>a:hover{
+        padding:5px;
+    }
+    #v_menu{
+        height:auto;
+    }    
+    .navbar-collapse.collapse{
+        padding:0px 15px;
+    }
+    ul.mod_pelivelomidlist li{
+        text-align:center;
+    }
+    ul.mod_pelivelomidlist li span.ciudad,
+    ul.mod_pelivelomidlist li span.hora,
+    ul.mod_pelivelomidlist li span.sala,
+    ul.mod_pelivelomidlist li span.censura{
+        float:initial;
+        padding:10px 0px;
+    }
+    ul.mod_pelivelomidlist li span.censura b{
+        float:initial;
+        position:initial;
+    }
+    .mod_compra01tope .pelidatos span{
+        left:-22px;
+    }
+    .mod_compra01tope{
+        background: #C02328;
+    }
+    .mod_compra01tope .pelidatos p{
+        font-size:initial;
+        display:initial;
+    }
+    .mod_compra01tope .pelidatos span{
+        height:auto;
+        display:block;
+        position:initial;            
+    }
+    .mod_compra01tope .pelinombre{
+        margin-bottom:5px;
+    }
+    .comprabarrapeli,.comprabarracine,
+    .comprabarrafecha{
+        text-align:left;
+        border-bottom: 1px solid #ADADAD;
+        height:40px;
+    }
+    .comercio .custom-col .col-sm-4,
+    .comercio .custom-col .col-lg-4{
+        float: initial;
+        margin: 0 auto;
+    }
+    ul.mod_pelivelomidlist li{
+        display:table;
+        padding:5px;
+    }
+    .mod_detalle_peli{
+        text-align:center;
+    }   
+}
+@media screen and (max-width: 720px){
+    ul.mod_pelivelofinlist li{
+        width:33%;
+    }
+}
+
+@media screen and (max-width: 611px){
+	.carameleria ul li{
+		margin: 10px;
+		display: inherit;
+	}
+    .select_ciudad, .select_ciudad:hover {
+        position: relative;
+        top: auto;
+        right: auto;
+        float: right;
+        width:100%;
+    }
+    ul.comprainfo li.comprainfo1{
+        height:100px;
+    }
+    ul.comprainfo li span.comprainfotipo{
+        margin:0px;
+    }
+}
+@media screen and (min-width: 200px) and (max-width: 650px) {
+	.pago .form.row{
+		margin: inherit;
+		width: 100%;
+	}
+    ul.comprainfo li span.comprainfomonto,ul.comprainfo li span.comprainfotipo{
+        font-size:12px;
+    }
+    .comprainfo1 img{
+        display:none;
+    }
+
+    .compraconfirm_ex {
+        font-size: 12px;
+    }
+
+    #qrCode {
+        height: 128px;
+        width: 128px;
+        margin-left: -15px;
+    }
+
+    .moviesummary span {
+        display: block;
+        margin-top: 40px;
+    }
+
+    .qr-bullet {
+        margin-left: -30px;
+        margin-right: -30px;
+        font-size: 10px;
+    }
+
+    #qr_ws{
+        font-size:6px;                
+    }
+
+}
+@media screen and  (min-width: 200px) and (max-width: 599px) {
+	.pub-text > h4{
+		text-align: center;
+	}
+	.pub-text{
+		text-align: center;
+	}
+
+	.estrenos-info.bg-pattern .img-responsive{
+		width: 100%;
+		max-width: 200px;
+		margin: 0 auto;
+	}
+
+	.img-movie-prox{
+		width: 190px;
+	}
+
+	.dropdown-ciudades {
+		left: -60px;
+	}
+
+	.noshow {
+		display:none;
+	}
+	
+	.redes_sociales {
+		float: left;
+		margin-left: -35px;
+		margin-top: -43px;
+	}
+
+	.boton_lateral {
+		float: left;
+		width: 33.33%;
+		font-size: 12px;
+		min-height: 115px;
+	}
+
+	.logo{
+		width: 100%;
+	}
+
+	.ciudad{
+		font-size: 18px;
+	}
+
+
+	.menu-responsive{
+		width: 100%;
+	}
+
+	.menu-principal-responsive{
+		margin: 0;
+	}
+
+	.redes_sociales{
+		position: absolute;
+	}
+
+	.cuenta-menu{
+		top: 0px;
+		left: 100px;
+	}
+
+	.col-xs-6.movie{
+		width: 50%;
+	}
+	.anchor{
+		position: inherit;
+	}
+
+    body {
+        overflow-x: hidden;
+    }
+
+    #btn-profile-submit {
+        margin-left: -1.5em;
+    }
+
+    #btn-contact-submit {
+        margin-left: 2.7em;
+        margin-top: .5em;
+    }
+
+    #detailtitle {
+        text-align: center;
+    }
+    .compradetboxint {
+        padding-top: 5px;
+        font-size: 12px;
+    }
+    .compradetboxint p span:first-child {
+        padding-right: 2em;
+        text-align: right;
+        width: 138px;
+        height: auto;
+        float: left;
+    }
+    #totaltab {
+        text-align: center;
+    }
+}
+@media screen and (max-width:560px){
+    ul.mod_pelivelofinlist li{
+        width:100%;
+    }
+}
+@media screen and (min-width:711px) and (max-width:729px){
+    .peliculas-bottom .col-lg-10 .row{
+        width: 100%;
+        margin:0 auto;
+    }
+}
+@media screen and (min-width:668px) and (max-width:710px){
+    .peliculas-bottom .col-lg-10 .row{
+        width: 80%;
+        margin:0 auto;
+    }
+}
+@media screen and (min-width:630px) and (max-width:667px){
+    .peliculas-bottom .col-lg-10 .row{
+        width: 85%;
+        margin:0 auto;
+    }
+}
+@media screen and (min-width:484px) and (max-width:536px){
+    .peliculas-bottom .col-lg-10 .row{
+        width: 75%;
+        margin:0 auto;
+    }    
+}
+
+@media screen and (max-width:483px){
+    .peliculas-bottom .col-lg-10 .row{
+        width: 100%;
+        margin:0 auto;
+    }
+    .peliculas-bottom .col-lg-10 .col-lg-3{
+        width:50%;
+        height:auto;
+        float:left
+    }
+}
+
+@media screen and (max-width:450px){
+    .comercio .custom-col .col-sm-4, 
+    .comercio .custom-col .col-lg-4{
+        width:auto;
+    }
+}
+@media screen and (max-width: 329px) {
+    .SeatNumber, .SeatLetter {font-size:5px;text-align:center;} 
+    .poster {
+        width: 128px;
+        height: 183px;
+    }   
+}
+@media screen and (max-width:720px){
+    .nopadding_laterales.publicidad{
+        width: 320px;
+        margin: 0 auto;
+        display: block;
+        float: none;
+    }
+}
+
+@media screen and (max-width:535px){
+    .recordar_acceso{
+        width:100%;
+        text-align:center;
+    }
+    #rememberemail input,
+    #rememberpass input, 
+    .sesion .box input[type="text"], 
+    .sesion .box input[type="password"], 
+    .sesion .box input[type="email"]{
+        width:100%;
+    }
+    #rememberpass select,
+    #rememberemail select,
+    .registro .ide select{
+        display:block;
+        margin:10px auto;
+    }
+}
+
+@media screen and (max-width: 514px ){
+	.sesion .box .text-right{
+		text-align: center;
+	}
+	.sesion .box input[type="text"]{
+		display: block;
+		width: 100%;
+	}
+}
+@media screen and (max-width:599px) {
+    .sbSelector{
+        font-size:30px;
+    }
+    .img_det_peli img{
+        margin:0 auto;
+    }
+}
+
+@media screen and (min-width:768px){
+    /*.an_mod_lista_peliculas .col-lg-3{
+        width:50%;
+    }*/
+    /*.an_mod_lista_peliculas ul li{
+        width:100%;
+    }*/
+    .mod_lista_peliculas ul li img{
+        width:100%;
+        height:auto;
+    }
+}
+
+@media screen and (max-width: 320px){
+     .mod_lista_peliculas .an_mod_lista_peliculas .container{
+        width:99%;
+    }
+   .an_mod_lista_peliculas .row{
+        width:99%;
+    }
+   .col-xs-6{
+       width:140px;
+   }
+    .an_mod_lista_peliculas ul li{
+        width:140px;
+        margin: 0 0 10px 5px;
+    }
+    .mod_lista_peliculas ul li img{
+        width:100%;
+        height:auto;
+        display:block;
+    }
+    a.btn_menosentrada {
+        margin-left: 1em;
+        margin-top: .25em;
+    }
+    input.campoentrada {
+        margin-left: 1.1em!important;
+        margin-top: .8em!important;
+    }
+    a.btn_masentrada {
+        margin-left: 1em;
+        margin-top: .1em;
+    }
+    
+    .localsummary label {
+        margin-left: -1em;
+    }
+    .cinesummary label {
+        margin-left: 1em;
+    }
+    .salasummary label {
+        margin-left: 1em;
+    }
+    .seatsummary {
+        white-space: pre-line;
+    }
+    .seatsummary label {
+        margin-top: -1.5em;
+    }
+    .datesummary label {
+        margin-left: .8em;
+    }
+    .hoursummary label {
+        margin-left: .8em;
+    }
+    .compravoucher {
+        margin-left: -6em;
+    }
+}
+@media screen and (max-width:480px){
+    header{
+        margin-bottom:12%;
+    }
+    .mod_compra01det{
+        width:100%;
+    }    
+}
+@media screen and (max-width: 450px){
+	.comerce > h2{
+		font-size: large;
+	}
+	.comerse{
+		padding: 0px;
+	}
+	.compra .tabla {
+    	font-size: 12px;
+	}
+	.pago .form input{
+		width: 100%;
+	}
+	.pago .form .cedula input[type="text"] {
+	    width: 100%;
+	    position: relative;
+	}
+	#portfolio .single_items{
+		width: 100%;
+	}
+	#portfolio .single_items img{
+		width: 100%;
+	}
+
+    .mod_salasdir,ul.mod_salapeliico{
+        width:100%;
+    }
+    .mod_pelivelomidtipo{
+        font-size:12px;
+        width:100px;
+    }
+    
+
+}
+@media screen and (max-width: 430px){
+	.compra .tabla{
+		padding: 0;
+	}
+	.compra .estrenos-info{
+		padding: 10px 0px;
+	}
+	.compra .estrenos-info .container{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+    .sesion .btn-bottom{
+            margin: 10px auto;
+        display: block;
+        border: 1px solid gainsboro;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 420px){
+    footer{
+        max-height:initial;
+    }
+    input.campopago2{
+        width:100%;
+    }
+   
+}
+
+@media screen and (min-width:420px) and  (max-width:759px){
+    footer{
+        max-height:initial;   
+    }
+    input.campopago2{
+        width:100%;
+    }
+}
+@media screen and (max-width: 410px){
+	.more-info-prom{
+		position: inherit;
+		top: 0;
+		right: 0;
+	}
+	a.margin-top-20{
+		font-size: 12px;
+	}
+	.cines .bg-pattern.estrenos-info .tab-content.container,.cines .bg-pattern.estrenos-info .tab-content.container .span8 .col-lg-7{
+		padding: 0px;
+	}
+	.compra .tabla .fila .cantidad button{
+		height: auto;
+		width: auto;
+	}
+	.compra .detalle-compra h4,.compra .detalle-compra .factura,.pago .detalle-compra h4,.pago .detalle-compra .factura{
+		width: auto;
+		height: auto;
+	}
+	.tiempo-restante{
+		width: auto;
+	}
+	.pago .form .radio_2 input[type="radio"]{
+		margin: 0;
+	}
+	.detalle .peliculas .horario a{
+		display: block;
+		margin-top: 10px;
+	}
+
+
+}
+
+@media screen and (max-width: 350px) {
+	.tiempo-restante .letrero{
+		width: auto;
+		background-size: 100% 100%;
+	}
+    ul.comprainfo li:first-child{
+        height:60px;
+    }
+    ul.comprainfo li:first-child strong{
+        font-size:12px;
+    }
+    .compradetboxint{
+        font-size:12px;       
+        text-align:left;    
+    }
+    a.btn_cambiarasiento, a.btn_cambiarasiento:hover{
+        position:initial;
+    }  
+}
+
+@media screen and (max-width: 334px) {
+	.pub-lobby-caja span:first-child{
+		line-height:1; 
+	}
+	.comerce > h2{
+		font-size: medium;
+	}
+	.cines .info-salas ul li {
+		display: block;
+		border: 1px solid #eaeaea;
+		height: 100%;
+		padding: 7px 10px;
+		width: 100%;
+		margin: 5px auto;
+	}
+    .compradetboxint p span{
+        width: 170px;
+        text-align:left;
+    }
+    .nopadding_laterales.publicidad{
+        width:100%;
+        overflow:hidden;
+    }
+}
+@media screen and (max-width:320px){
+    ul.mod_pelivelomidlist li{
+        height:230px;
+    }
+    input.campoentrada{
+        margin:0px;
+    }
+    .compradetboxint p{
+        font-size:9px;
+    }
+    #SendViewHall {
+        margin-top: -1.5em!important;
+    }
+    .pub-text > p {
+        font-size: 9.5px;
+
+    }
+}
+@media screen and (max-width: 310px) {
+	.sesion .box.registro a{
+		font-size: 18px;
+	}
+	.compra .tabla .fila .cantidad input{
+		width: 18px;
+	}
+
+}
+@media screen and (max-width: 319px) {
+	.sesion .box.registro a{
+		font-size: 18px;
+	}
+	ul.mod_salapelilist li span.hora a, ul.mod_pelivelomidlist span.hora a, ul.mod_detalle_peli li span.hora a{
+		display: block;
+		margin-top: 10px;
+	}
+}
+
+/*========================================================================================*/
+/*====================        ESTILOS PROPIOS DEL SITIO ORIGINAL         =================*/
+/*========================================================================================*/
+
+
+@media screen and (min-width: 100px) and (max-width: 480px) {
+    h1.header_logo, h1.header_logo a{
+        background: url(https://cinesunidosweb.blob.core.windows.net:443/img/pic_logocu.png) no-repeat 0 -43px;
+        width: 230px;
+        height: 31px;
+        top: 5px;
+        left: 7px;
+    }
+    header{
+        height:65px;
+        background-repeat: repeat-y;
+    }
+
+    .caja-iniciar-sesion-02 a:link, .caja-iniciar-sesion-02 a:visited {
+        color:#fff !important;
+    }
+}
+
+@media screen and (min-width:100px) and (max-width:540px) {
+    .v_titulo {
+        font-size: 14px;
+    }
+    .fecha_estreno {
+        width: 100%;
+    }
+    .horarios_censura {
+        font-size: 12px;
+    }
+    .btn{
+        padding: 4px 8px !important;
+        margin-bottom: 5px !important;
+    }
+    .btn-lg{
+        padding: 5px 8px !important;
+        margin-bottom: 5px;
+    }
+    .btn-menu-mobile, .btn-menu-mobile a{
+        padding-top: 40px;
+    }
+    .mostrar-right{
+        margin-top: 56px;
+    }
+    #recaptcha_widget_div {
+    position: relative;
+    right: 16px;
+    }
+}
+@media screen and (min-width:100px) and (max-width:600px) {
+    .mod_compra01info {
+    position: relative;
+	}
+	.select_ciudad, .select_ciudad:hover {
+	    font-size: 1em;
+	    top: 10px;
+	}
+	.sbOptions li {
+	    font-size: .9em;
+	}
+	.barra_peli_detalle {
+	    display: table;
+	    width: 100%;
+	    padding: 0;
+	    margin: 0;
+	}
+	.horarios_detalle_peli {
+	    width: 98%;
+	    padding-right: 2%;
+	    border: 0;
+	}
+	.cont_det_peli {
+        margin:auto;
+        padding:initial;
+        border:none;
+	}
+	.img_det_peli img {
+	    max-width: 150px;
+	    max-height: 214px;
+	}
+	.mod_pelivelomiddias_detalle {
+	    float: left;
+	    margin-top: 5px;
+	    width: 100%}
+	ul.mod_detalle_peli {
+	    width: 99%}
+	.horarios_detalle_peli {
+	    width: 98%}
+	ul.barra_dias {
+	    width: 100%}
+	.cont_detalle_peli {
+	    padding-right: 5px;
+	    width: 100%;
+	    overflow: hidden;
+	}
+	.horarios_censura {
+	    width: 93%}
+	article {
+	    display: block;
+	    width: 100%;
+	    margin-right: 5px;
+	    padding: 0;
+	}
+	.der_estrenos ul li {
+	    font-size: 11px;
+	}
+	.art_estrenosli {
+	    width: 98%}
+	.contenido_estrenos {
+	    width: 95%;
+	    border: 0;
+	}
+	.izq_estrenos {
+	    max-width: 373px;
+	}
+	.img_estrenos {
+	    width: 190px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    float: none;
+	}
+    .tit-internos h2{
+        font-size: 1em;
+    }
+	/*ESTILOS MENU MOBILE*/
+    .mostrar-right{
+        display: block !important;
+        background-color: #fff;
+        z-index: 1000;
+        height: auto !important;
+        left: 0px !important;
+        width: 100% !important;
+        padding-bottom: 3% !important;
+        padding-top: 1% !important;
+    }
+    .mostrar-right ul {
+        padding-left: 1% !important;
+        display:block !important;
+    }
+    .mostrar-right ul li a{
+        color: #c02328 !important;
+    }
+	nav.mnugris_secc{
+        width:100%;
+    }
+    nav.mnugris_secc ul li {
+        float: left;
+        display: block;
+        width:100%;
+    }
+    .btn-menu-mobile, .btn-menu-mobile a{
+        display: block;
+        color: #ffffff;
+        position: relative;
+        padding-left: 5px;
+        font-size: 0.95em;
+    }
+    .btn-menu-mobile span{
+        margin-left: 0;
+        background: url(https://cinesunidosweb.blob.core.windows.net:443/img/icon-menu.png) no-repeat top;
+        background-size: 100%;
+        width: 20px;
+        height: 20px;
+        float: left;
+        display: block;
+        position: relative;
+        top: 0px;
+        right: 3px;
+        cursor:pointer;
+    }
+    .btn-menu-mobile p{
+        padding-top: 2px;
+    }
+
+    .ocultar{
+        display:none;
+    }
+    .recordar_acceso {
+      max-width:300px;
+    }
+    .group-two label {
+        font-size: 15px !important;
+        width: 27% !important;
+        float: left !important;
+        margin-top: 2px !important;
+        margin-left: 0 !important;
+    }
+    .group-two input[type='date'] {
+       width: 54% !important;
+    }
+    .group-three input[type='button'] {
+        width:55% !important;
+    }
+    .group-one, .group-two, .group-three {
+    width:299px !important;
+    display:block !important;
+    height:60px !important;
+    padding-left: 2% !important;
+    }
+    .group-one label {
+        width:27% !important;
+    }
+    .group-one select {
+        width:12% !important;
+     }
+    .group-one input[type="text"] {
+        width:41% !important;
+     }
+    .group-one label,.group-one select,.group-one label,.group-one input[type="text"], .group-two label, .group-two input[type="date"], .group-three input[type="button"]  {
+        float:left;
+    }
+    /*compras*/
+    .compraasientos ul.asientosel{
+        height: 50px !important;
+    }
+}
+@media screen and (width:600px) {
+    .ul.barra_dias li{
+   width: 5.5% !important;
+    }
+}
+@media screen and (min-width:100px) and (max-width:1023px) {
+    .barra-left {
+    display:none !important;
+    }
+    .compradetboxint small{
+       display:none;
+   }
+    .img-promo {
+        display:block;
+    }
+    .promo-50shades {
+        display:none;
+    }
+    a.select_salas, a.select_salas:hover {
+        padding-top: 4px;
+        background: url(https://cinesunidosweb.blob.core.windows.net:443/img/bckg_tabs.png) top repeat-x;
+        color: #333;
+        border-bottom: 1px solid #000;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1em;
+        width: 96%;
+        height: 27px;
+        display: block;
+        position: absolute;
+    }
+    a.select_salas span, a.select_salas:hover span {
+        margin-left: 15px;
+        width: 21px;
+        height: 10px;
+        float: right;
+        display: block;
+        position: relative;
+        top: 7px;
+        right: 10px;
+    }
+    a.select_salas span {
+        background: url(https://cinesunidosweb.blob.core.windows.net:443/img/ico_selectsalas.png) no-repeat top;
+    }
+    a.select_salas:hover span {
+        background: url(https://cinesunidosweb.blob.core.windows.net:443/img/ico_selectsalas.png) no-repeat bottom;
+    }
+    a.select_salas:hover {
+        color: #c02328;
+    }
+    .horarios_censura {
+        width: 96%}
+    .mod_pelivelotop img {
+        left: 0;
+        margin-left: 0;
+        display: block !important;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px) {
+    nav.mnuredes{
+        display:none;
+    }
+
+   
+}
+
+/*iPhone 6*/
+@media screen and (width:375px) {
+    .mod_peliculas, .modulo-2 {
+        top: -20px;
+    }
+}
+
+
+/******** OVERRIDE PARA ANCHO DE PEL�CULAS (PEL�CULAS) ********/
+/*POSTER*/
+@media screen and (min-width: 320px){
+    .mod_lista_peliculas ul li {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        /*box-shadow: 0 2px 2px #999;*/
+    }
+    .mod_lista_peliculas ul li img {
+        width: 100%;
+        height: auto;
+    }
+    .mod_lista_peliculas ul {
+        width: auto;
+    }
+
+    /******** PEQUEÑO BUG DE LA CUADRÍCULA EN LA PÁGINA "PELÍCULAS" ********/
+    .fix-nmovies__grid { /*NO ES NECESARIO LA SEPARACIÓN POR LOS PADDING DE BOOTSTRAP*/
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+             -ms-flex-wrap: wrap;
+                 flex-wrap: wrap;
+    }
+
+    .fix-nmovies__grid div.col-md-3.col-sm-3.col-xs-6 { /*UTILIZANDO LA ESPECIFICIDAD MIENTRAS SE REESTRUCTURA LA PÁGINA*/
+        float: none;
+    }
+}
+
+/*TABLA DE PEL�CULAS*/
+@media screen and (min-width: 320px) {
+    .v_horarios {
+        width: 90%;
+        display: block;
+        /*margin-top: -17px;*/
+        position: relative;
+        top: -7px;
+    }
+    .v_ampliar {
+        width: auto;
+        margin-top: 0;
+    }
+    .an_mod_lista_peliculas ul li .v_cinesj .v_ampliar a, .an_mod_lista_peliculas ul li .v_cinesj2 .v_ampliar a, .an_mod_lista_peliculas_v2 ul li .v_cinesj .v_ampliar a, .an_mod_lista_peliculas_v2 ul li .v_cinesj2 .v_ampliar a.other {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .v_cinesj2 .v_horarios ul {
+        margin-bottom: 0;
+    }
+}
+/********* SOBREESCRIBIENDO FOOTER **********/
+nav.mnufooter_secc,
+nav.mnufooter_secc ul,
+nav.mnufooter_secc ul li {
+    width: auto;
+    height: auto;
+}
+
+    nav.mnufooter_secc ul li {
+        float: none;
+        line-height: 2;
+        font-size: 12px;
+    }
+
+@media screen and (min-width:760px) {
+    nav.mnufooter_secc {
+        /*width: 530px;*/
+        width: 390px;
+        padding-top: 25px;
+    }
+
+        nav.mnufooter_secc ul {
+            margin-bottom: 5px;
+        }
+
+            nav.mnufooter_secc ul li {
+                float: left;
+                line-height: 1;
+            }
+
+            nav.mnufooter_secc ul::after {
+                content: '';
+                display: block;
+                clear: both;
+            }
+}
+
+/******** PARA LLAX BLACKFRIDAY **********/
+@media screen and (min-width:768px) {
+    .container3 {
+        height: 350px;
+    }
+}

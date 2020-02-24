@@ -1,0 +1,32 @@
+$(document).ready(function () {
+    $(".fancybox").fancybox({
+        margin: [15, 0, 0, 0],
+        padding: 0,
+        autoSize: false,
+        width: '100%',
+        height: '100%',
+        maxWidth: 961,
+        autoResize: true,
+        autoCenter: true,
+    });
+    inicio_slider();
+});
+function inicio_slider() {
+    $('.loader').css("display", 'none');
+    var elem = document.getElementById('mySwipe');
+    window.mySwipe = Swipe(elem, {
+        startSlide: 0,
+        auto: 5000,
+        continuous: true,
+        stopPropagation: false,
+        callback: function (pos) {
+            var i = bullets.length;
+            while (i--) {
+                bullets[i].className = ' ';
+            }
+            bullets[pos].className = 'mod_homecarrpagact';
+        }
+    });
+
+    var bullets = document.getElementById('mod_homecarrpag').getElementsByTagName('li');
+}

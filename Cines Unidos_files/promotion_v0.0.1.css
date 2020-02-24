@@ -1,0 +1,1252 @@
+﻿﻿@font-face {
+    font-family: 'bankgothicbold';
+    src: url('../fonts/bank-gothic/bankgothic_bold-webfont.eot');
+    src: url('../fonts/bank-gothic/bankgothic_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bank-gothic/bankgothic_bold-webfont.woff2') format('woff2'),
+         url('../fonts/bank-gothic/bankgothic_bold-webfont.woff') format('woff'),
+         url('../fonts/bank-gothic/bankgothic_bold-webfont.svg#bankgothicbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+font-family: 'Avenir LT Std 95 Black';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 95 Black'), url('../fonts/avenir/AvenirLTStd-Black.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Avenir LT Std 45 Book';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 45 Book'), url('~/Content/fonts/avenir/AvenirLTStd-Book.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Avenir LT Std 85 Heavy';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 85 Heavy'), url('~/Content/fonts/avenir/AvenirLTStd-Heavy.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Avenir LT Std 35 Light';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 35 Light'), url('~/Content/fonts/avenir/AvenirLTStd-Light.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Avenir LT Std 65 Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 65 Medium'), url('~/Content/fonts/avenir/AvenirLTStd-Medium.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Avenir LT Std 55 Roman';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 55 Roman'), url('~/Content/fonts/avenir/AvenirLTStd-Roman.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Avenir LT Std 95 Black Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 95 Black Oblique'), url('~/Content/fonts/avenir/AvenirLTStd-BlackOblique.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Avenir LT Std 45 Book Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 45 Book Oblique'), url('~/Content/fonts/avenir/AvenirLTStd-BookOblique.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Avenir LT Std 85 Heavy Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 85 Heavy Oblique'), url('~/Content/fonts/avenir/AvenirLTStd-HeavyOblique.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Avenir LT Std 35 Light Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 35 Light Oblique'), url('~/Content/fonts/avenir/AvenirLTStd-LightOblique.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Avenir LT Std 65 Medium Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 65 Medium Oblique'), url('~/Content/fonts/avenir/AvenirLTStd-MediumOblique.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Avenir LT Std 55 Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 55 Oblique'), url('~/Content/fonts/avenir/AvenirLTStd-Oblique.woff') format('woff');
+}
+
+/*----- Accordion -----*/
+.accordion, .accordion * {
+    -webkit-box-sizing:border-box; 
+    -moz-box-sizing:border-box; 
+    box-sizing:border-box;
+}
+ 
+.accordion {
+    overflow:hidden;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.25);
+    border-radius:3px;
+}
+
+.red {
+   
+    background: #a90329; /* Old browsers */
+    background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+}
+
+.black {
+    background: #000000;
+}
+/*----- Section Titles -----*/
+.accordion-section-title {
+    width: 100%;
+    float: left;
+    height: 135px;
+    padding:15px;
+    background:#000000;
+    transition:all linear 0.15s;
+    /* Type */
+    font-size:1.200em;
+    text-shadow:0px 1px 0px #1a1a1a;
+    color:#fff;
+}
+ 
+.accordion-section-title2 {
+    width: 50%;
+    float: left;
+    height: 135px;
+    padding:15px;
+    transition:all linear 0.15s;
+    /* Type */
+    font-size:1.200em;
+    text-shadow:0px 1px 0px #1a1a1a;
+    color:#fff;
+    
+    background: #980224; /* Old browsers */
+
+}
+
+.accordion-section-title.active, .accordion-section-title:hover, 
+.accordion-section-title2.active, .accordion-section-title2:hover
+{
+    cursor:pointer; 
+    cursor:hand;
+    /* Type */
+    text-decoration:none;
+}
+ 
+.accordion-section:last-child .accordion-section-title {
+    border-bottom:none;
+}
+ 
+/*----- Section Content -----*/
+.accordion-section-content {
+    padding:15px;
+    display:none;
+    background:#000000;
+}
+
+.accordion-section-content {
+    padding:15px;
+    display:none;
+    background:#000000;
+}
+
+/*---- End Section Content ----*/
+
+.float-left {
+    float: left;
+}
+
+.preventa-1 {
+    width: 100%;
+    padding-top: 15px;
+    padding-right: 20px;
+    text-align: right;
+    font-size: 0.8em;
+    /*font-size: 2em;
+    font-family: "bankgothicbold";
+    color: #f29715;*/
+}
+
+.preventa-2 {
+    width: 100%;
+    padding-top: 30px;
+    padding-right: 20px;
+    text-align: right;
+    /*font-size: 2em;
+    font-family: "bankgothicbold";
+    color: #f29715;*/
+}
+
+.text-sw {
+    font-size: 1.7em;
+    font-family: "Avenir LT Std 95 Black";
+    color: #fff;
+}
+
+.text-jh {
+    font-size: 2em;
+    font-family: "bankgothicbold";
+    color: #fff;
+}
+
+.estreno {
+    padding-right: 2.5%;
+    padding-top: 20px;
+    text-align: right;
+    font-size: 1.2em;
+    font-family: "Avenir LT Std 95 Black";
+}
+
+#estreno-1 {
+    position: absolute;
+    float: right;
+    padding-left: 20%;
+    text-align: right;
+    color: #FFFFFF;
+    font-family: "Avenir LT Std 95 Black";
+}
+
+#estreno-2 {
+    position: absolute;
+    padding-left: 10%;
+    padding-right: 5%;
+    color: #FFFFFF;
+    font-size: 1.4em;
+    font-family: "bankgothicbold";
+}
+
+.logo-tab {
+    height: 100px;
+}
+
+.content-film {
+    width: 45%;
+    margin-top: 10px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    float: left;
+    background: none;
+}
+
+.content-film-sw {
+    border: 1px solid #38340d;
+    border-radius: 2px;
+    margin-bottom: 40px;
+}
+
+.content-film-jh {
+    border: 1px solid #4f1e02;
+    border-radius: 2px;
+    margin-bottom: 40px;
+}
+
+.content-film-sw:hover {
+    border: 1px solid #f8e63b;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.content-film-jh:hover {
+    border: 1px solid #ff0000;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.promo-poster {
+    width: 100%;
+    max-height: 357px;
+    transition: opacity 1s ease 0s, transform 1s ease 0s;
+    backface-visibility: hidden;
+    float: right;
+    z-index: 0;
+}
+
+.logo-film {
+    width: 90%;
+    display: table-caption;
+    margin: 0 auto;
+}
+
+.promo-left {
+    width: 55%;
+   float: left;
+}
+
+.promo-right {
+    width: 45%;
+    float: left;
+}
+
+.button-sw {
+    box-sizing: border-box;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -moz-user-select: none;
+    padding: 2px 16px;
+    font-size: 1.5em;
+    line-height: 1.33333;
+    border-radius: 6px;
+    font-family: "Avenir LT Std 95 Black";
+    font-weight: 400;
+    background-color: #000;
+    margin-top: 4px;
+    color: #FFF;
+    border: 1px solid #f8e63b;
+    border-radius: 4px;
+    width: 95%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.button-jh {
+    box-sizing: border-box;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -moz-user-select: none;
+    padding: 2px 16px;
+    font-size: 1.4em;
+    line-height: 1.33333;
+    border-radius: 6px;
+    font-family: "bankgothicbold";
+    background-color: transparent;
+    margin-top: 4px;
+    color: #f29715;
+    border: 1px solid #ff0000;
+    border-radius: 4px;
+    width: 95%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.button-sw:hover {
+    cursor:pointer; 
+    cursor:hand;
+    background-color: #b6b6b6;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.button-jh:hover {
+    cursor:pointer; 
+    cursor:hand;
+    color: #ffffff;
+    background-color: #f29715;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.box-type {
+    z-index: 1;
+    position: absolute;
+    margin-top: 1.5%;
+    margin-left: 2%;
+    height:30px;
+}
+
+.film-type {
+     padding: 2px 10px; 
+     background-color: #C02328 ;
+     font-size: 0.9em;
+     color: #FFF;
+     float: left;
+     margin-right: 3px;
+}
+
+.center {
+    display:block;
+    margin:0 auto;
+}
+
+.copyright{
+    color:#B0B4B5;
+    font-size: 0.5em;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.crbanner {
+    font-size: 0.3em;
+}
+
+.premiere {
+    color:#FFF;
+    font-size: 1.1em;
+    text-align: center;
+    font-family: "Avenir LT Std 95 Black";
+    padding-top: 6px;
+    letter-spacing: 6px;
+}
+
+
+/*estilos promociones Thor Ragnarok*/
+#pad {
+    position: relative;
+    /*box-sizing: border-box;*/
+}
+
+#botonesprom {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    right: 2.5px;
+    transform: translateY(-50%);
+}
+
+[class*="botonesprom__"] {
+    display: block;
+    background-color: #002f4b;
+    border: 1px solid #09eafc;
+    width: 50px;
+    height: 15px;
+    line-height: 15px;
+    margin-bottom: 5px;
+    font-size: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+    [class*="botonesprom__"]:last-child {
+        margin-bottom: 0;
+    }
+
+#botonesprom a:hover {
+    box-shadow: -1px 1px 2px 1px rgba(246, 240, 240, 0.90);
+    transition: ease .5s;
+    position: relative;
+    top: 3px;
+}
+
+@media (min-width: 380px) {
+    [class*="botonesprom__"] {
+        height: 20px;
+        line-height: 20px;
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 480px) {
+    [class*="botonesprom__"] {
+        width: 65px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 980px) {
+    [class*="botonesprom__"] {
+        width: 90px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    #botonesprom {
+        right: 2%;
+    }
+
+    [class*="botonesprom__"] {
+        width: 100px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    #botonesprom {
+        right: 1%;
+    }
+
+    [class*="botonesprom__"] {
+        width: 150px;
+        margin-bottom: 16px;
+    }
+}
+
+/*
+@media (max-width: 2080px) and (min-width: 1910px){
+    #botonesprom a{
+        text-align: center;
+        font-size: 10px;
+    }
+    #botonesprom {
+    transition: all;
+    text-align:center;
+    margin-right: -10px;
+    margin-left: 670px;
+    }
+}
+
+
+@media (max-width: 1909px) and (min-width: 1207px){
+    #botonesprom a{
+        text-align: center;
+        font-size: 10px;
+    }
+    #botonesprom {
+    transition: all;
+    text-align:center;
+    margin-right: -10px;
+    margin-left: 670px;
+    }
+}
+
+
+@media (max-width: 1207px) and (min-width: 1201px){
+    #botonesprom a{
+        text-align: center;
+        font-size: 10px;
+    }
+    #botonesprom {
+    transition: all;
+    text-align:center;
+    margin-right: -10px;
+    margin-left: 670px;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 1200px){
+    #botonesprom a{
+        text-align: center;
+        font-size: 10px;
+    }
+    #botonesprom {
+    transition: all;
+    text-align:center;
+    margin-right: -10px;
+    margin-left: 675px;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 1160px){
+    #botonesprom a{
+        text-align: center;
+        font-size: 10px;
+    }
+    #botonesprom {
+    transition: all;
+    text-align:center;
+    margin-right: -10px;
+    margin-left: 550px;
+    }
+}
+
+@media (max-width: 1159px) and (min-width: 1000px){
+    #botonesprom a{
+        text-align: center;
+        font-size: 10px;
+    }
+    #botonesprom {
+    transition: all;
+    text-align:center;
+    margin-right: -10px;
+    margin-left: 550px;
+    }
+}
+
+@media (max-width: 999px) and (min-width: 997px){
+    #botonesprom a{
+        text-align: center;
+        font-size: 10px;
+    }
+    #botonesprom {
+    transition: all;
+    text-align:center;
+    margin-right: -10px;
+    margin-left: 550px;
+    }
+}
+
+@media (max-width: 996px) and (min-width: 996px){
+    #botonesprom a{
+        text-align: center;
+        font-size: 10px;
+    }
+    #botonesprom {
+    transition: all;
+    text-align:center;
+    margin-right: -10px;
+    margin-left: 550px;
+    }
+}
+
+
+@media (max-width: 995px) and (min-width: 993px){
+    #botonesprom a{
+        text-align: center;
+        font-size: 10px;
+    }
+    #botonesprom {
+    transition: all;
+    text-align:center;
+    margin-right: -10px;
+    margin-left: 550px;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 807px){
+    #botonesprom a{
+        text-align: center;
+        font-size: 10px;
+    }
+    #botonesprom {
+    transition: all;
+    text-align:center;
+    margin-right: -10px;
+    margin-left: 425px;
+    }
+}
+
+@media (max-width: 806px) and (min-width: 771px){
+    #botonesprom a{
+        text-align: center;
+        font-size: 10px;
+    }
+    #botonesprom {
+    transition: all;
+    text-align:center;
+    margin-right: -10px;
+    margin-left: 425px;
+    }
+}
+
+
+@media (max-width: 771px) and (min-width: 731px){
+
+    #botonesprom a{
+        text-align: center;
+        font-size: 10px;
+    }
+    #botonesprom {
+    transition: all;
+    text-align:center;
+    margin-right: -10px;
+    margin-left: 425px;
+    }
+
+}
+
+@media (max-width: 730px) and (min-width: 696px){
+
+    #botonesprom a{
+        text-align: center;
+        font-size: 10px;
+    }
+    #botonesprom {
+    transition: all;
+    text-align:center;
+    margin-right: -10px;
+    margin-left: 425px;
+    }
+
+}
+
+@media (max-width: 695px) and (min-width: 646px){
+    #botonesprom a{
+        text-align: center;
+        font-size: 10px;
+    }
+    #botonesprom {
+    transition: all;
+    text-align:center;
+    margin-right: -10px;
+    margin-left: 368px;
+    }
+}
+
+@media (max-width: 645px) and (min-width: 584px){
+    #botonesprom a{
+        text-align: center;
+        font-size: 10px;
+    }
+    #botonesprom {
+    transition: all;
+    text-align:center;
+    margin-right: -10px;
+    margin-left: 348px;
+    }
+}
+
+@media (max-width: 583px) and (min-width:541px){
+    #botonesprom a{
+        text-align: center;
+        padding: 0px;
+        font-size: 9px;
+        padding-right: 3px;
+        padding-left: 3px;
+    }
+
+    #botonesprom{
+        margin-right: -9px;
+        margin-left: 312px;
+    }
+}
+
+@media (max-width: 540px) and (min-width:451px){
+     #botonesprom a{
+        text-align: center;
+        padding: 0px;
+        font-size: 9px;
+    }
+
+    #botonesprom{
+        margin-right: -10px;
+        margin-left: 240px;
+    }
+}
+
+@media (max-width: 450px) and (min-width:415px){
+     #botonesprom a{
+        text-align: center;
+        padding: 0px;
+        font-size: 9px;
+    }
+
+    #botonesprom{
+        margin-right: -10px;
+        margin-left: 201px;
+    }
+}
+
+@media (max-width: 414px) and (min-width:376px){
+     #botonesprom a{
+        text-align: center;
+        padding: 0px;
+        font-size: 9px;
+    }
+
+    #botonesprom{
+        margin-right: -5px;
+        margin-left: 206px;
+    }
+}
+
+@media (max-width: 375px) and (min-width:361px){
+     #botonesprom a{
+        text-align: center;
+        padding: 0px;
+        font-size: 9px;
+    }
+
+    #botonesprom{
+        margin-right: -5px;
+        margin-left: 177px;
+    }
+}
+
+@media (max-width: 360px) and (min-width:321px){
+     #botonesprom a{
+        text-align: center;
+        padding: 0px;
+        font-size: 9px;
+    }
+
+    #botonesprom{
+        margin-right: -5px;
+        margin-left: 165px;
+    }
+}
+
+@media (max-width: 320px) and (min-width:200px){
+     #botonesprom a{
+        text-align: center;
+        padding: 0px;
+        font-size: 9px;
+    }
+
+    #botonesprom{
+        margin-right: -5px;
+        margin-left: 134px;
+    }
+}*/
+
+/*fin estilos Thor Ragnarok*/
+
+
+@media (max-width: 768px) {
+    .content-film {
+        width: 95%;
+    }
+
+    .button-sw, .button-jh {
+        font-size: 1em;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1100px) {
+    .content-film {
+        width: 95%;
+    }
+
+    .text-jh {
+        font-size: 1.2em;
+    }
+
+    .text-sw {
+        font-size: 1.2em;
+    }
+
+    .button-sw {
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 1101px) and (max-width: 1250px) {
+    .button-sw {
+        font-size: 0.95em;
+    }
+}
+
+/*##### Estilos de Promocion #####*/
+/*.img {
+    display: block;
+    width: 100%;
+    height: 289px;
+}
+
+label {
+    display: inline-block;
+    margin-right: 1em;
+    padding: 0.4em 0;
+    cursor: pointer;
+}
+
+.contenedor {
+    position: relative;
+    max-width: 100%;
+    height: 289px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.scene {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.fill {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    left: 5%;
+    top: 5%;
+}
+
+.border {
+    border: 2px dashed #00FFAA;
+}
+
+.aspect {
+    opacity: 0.2;
+}
+
+.layer {
+    margin-bottom: 0;
+}
+
+.btn-container {
+    position: relative;
+    left: 42px;
+    top: 128px;
+    z-index: 20;
+}
+
+.btn-gen {
+    position: absolute;
+    top: 55px;
+    background-color: #C0C0C0;
+    color: #222;
+    border: #ffffff;
+    border-bottom-color: #958686;
+    box-shadow: .5px .5px 2px #121212;
+    border-radius: 1px;
+    font-family: sans-serif;
+    font-size: 12px;
+    padding: 6px 5px 6px 5px;
+    width: 96px;
+    transition: all 1s ease;
+}
+
+.btn-gen:hover {
+    position: absolute;
+    color: #bbb;
+    background-color: #414141;
+    box-shadow: .5px .5px 5px #121212;
+}
+
+.btn-esp {
+    left: 410px;
+}
+
+.btn-esp3d {
+    left: 530px;
+}
+
+.btn-sub {
+    left: 650px;
+}
+
+.btn-sub3d {
+    left: 770px;
+}
+
+#power {
+    width: 100%;
+    height: 256px;
+}
+
+.btn-pr {
+    position: absolute;
+    background-color: #ff3530;
+    margin-top: 172px;
+    color: #fff;
+    border: #ffffff;
+    border-bottom-color: #b20000;
+    box-shadow: .5px .5px 2px #121212;
+    border-radius: 1px;
+    font-family: sans-serif;
+    font-size: 12px;
+    padding: 6px 5px 6px 5px;
+    width: 128px;
+    z-index: 10;
+    transition: all 1s ease;
+}
+
+    .btn-pr:hover {
+        position: absolute;
+        color: #e0dddd;
+        background-color: #e50600;
+        box-shadow: .5px .5px 5px #121212;
+    }
+
+.pr-esp {
+    left: 900px;
+}
+
+.pr-sub {
+    left: 1080px;
+}
+
+
+@media screen and (max-width: 1025px) {    
+    .img {
+        height: 217px;
+    }
+
+    .contenedor {
+        height: 217px;
+    }
+
+    .btn-gen {
+        top: 5px;
+        padding: 7px 10px 7px 10px;
+        font-family: sans-serif;
+        font-size: 10px;
+        width: 82px;
+    }
+
+    .btn-esp {
+        left: 325px;
+    }
+
+    .btn-esp3d {
+        left: 420px;
+    }
+
+    .btn-sub {
+        left: 515px;
+    }
+
+    .btn-sub3d {
+        left: 615px;
+    }
+
+    #power {
+        height: 192px;
+    }
+
+    .btn-pr {
+        margin-top: 128px;
+        font-size: 12px;
+        padding: 6px 5px 6px 5px;
+        width: 100px;
+    }
+
+    .pr-esp {
+        left: 680px;
+    }
+
+    .pr-sub {
+        left: 830px;
+    }
+
+}
+
+@media screen and (max-width: 769px) {
+    .img {
+        height: 196px;
+    }
+    
+    .contenedor {
+        height: 196px;
+    }
+    
+    .btn-gen {
+        top: 0px;
+        padding: 2px 2px 2px 2px;
+        font-size: 11px;
+        width: 62px;
+    }
+    
+    .btn-esp {
+        left: 230px;
+    }
+
+    .btn-esp3d {
+        left: 310px;
+    }
+
+    .btn-sub {
+        left: 390px;
+    }
+
+    .btn-sub3d {
+        left: 470px;
+    }
+
+    #power {
+        height: 144px;
+    }
+
+    .btn-pr {
+        margin-top: 96px;
+        font-size: 10px;
+        padding: 6px 5px 6px 5px;
+        width: 82px;
+    }
+
+    .pr-esp {
+        left: 520px;
+    }
+
+    .pr-sub {
+        left: 630px;
+    }
+    
+}
+
+@media screen and (max-width: 641px) {
+    .img {
+        height: 136px;
+    }
+
+    .contenedor {
+        height: 136px;
+    }
+
+    .btn-gen {
+        top: -45px;
+        padding: 2px 1px 2px 1px;
+        font-family: sans-serif;
+        font-size: 10px;
+        width: 56px;
+    }
+
+    .btn-esp {
+        left: 186px;
+    }
+
+    .btn-esp3d {
+        left: 250px;
+    }
+
+    .btn-sub {
+        left: 315px;
+    }
+
+    .btn-sub3d {
+        left: 380px;
+    }
+
+    #power {
+        height: 144px;
+    }
+
+    .btn-pr {
+        margin-top: 96px;
+        font-size: 10px;
+        padding: 6px 5px 6px 5px;
+        width: 82px;
+    }
+
+    .pr-esp {
+        left: 420px;
+    }
+
+    .pr-sub {
+        left: 515px;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    .img {
+        height: 102px;
+    }
+
+    .contenedor {
+        height: 102px;
+    }
+
+    .btn-gen {
+        top: -60px;
+        padding: 1px 3px 1px 3px;
+        font-family: sans-serif;
+        font-size: 9px;
+        width: 46px;
+    }
+
+    .btn-esp {
+        left: 100px;
+    }
+
+    .btn-esp3d {
+        left: 150px;
+    }
+
+    .btn-sub {
+        left: 201px;
+    }
+
+    .btn-sub3d {
+        left: 250px;
+    }
+
+    #power {
+        height: 90px;
+    }
+
+    .btn-pr {
+        margin-top: 55px;
+        font-size: 9px;
+        padding: 6px 5px 6px 5px;
+        width: 64px;
+    }
+
+    .pr-esp {
+        left: 300px;
+    }
+
+    .pr-sub {
+        left: 375px;
+    }
+}*/
+
+/*@media screen and (max-width: 321px) {
+    .img {
+        height: 82px;
+    }
+    
+    .contenedor {
+        height: 82px;
+    }
+    
+    .btn-gen {
+        top: -70px;
+        padding: 1px 3px 1px 3px;
+        font-size: 7.8px;
+        width: 40px;
+    }
+
+    .btn-esp {
+        left: 10px;
+    }
+
+    .btn-esp3d {
+        left: 56px;
+    }
+
+    .btn-sub {
+        left: 100px;
+    }
+
+    .btn-sub3d {
+        left: 146px;
+    }
+
+    #power {
+        height: 60px;
+    }
+
+    .btn-pr {
+        margin-top: 38px;
+        font-size: 8px;
+        padding: 3px 1px 3px 1px;
+        width: 48px;
+    }
+
+    .pr-esp {
+        left: 185px;
+    }
+
+    .pr-sub {
+        left: 237px;
+    }
+    
+}*/
+/*##### FIN Estilos de Promocion #####*/

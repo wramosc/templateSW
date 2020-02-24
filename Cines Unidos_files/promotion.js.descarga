@@ -1,0 +1,118 @@
+﻿
+
+$(document).ready(function () {
+    if ($(window).width() <= 1030) {
+        $("#preventa1").remove();
+        $("#preventa2").remove();
+        $('#slideIzq').addClass('center');
+        $('#slideDer').addClass('center');
+        $('.logo-tab').addClass('center');
+        $('.float-left').removeClass('float-left');
+    }
+
+  /*  if ($(window).width() <= 770) {
+        $("#promotion").hide();
+    }*/
+
+    var openTabSW = false;
+    var openTabJH = false;
+
+    function close_accordion_section1() {
+        $('.accordion .accordion-section-title').removeClass('active');
+        $('.accordion #accordion-1').slideUp(300).removeClass('open');
+    }
+
+    function close_accordion_section2() {
+        $('.accordion .accordion-section-title2').removeClass('active');
+        $('.accordion #accordion-2').slideUp(300).removeClass('open');
+    }
+    
+    $('.accordion-section-title').click(function (e) {
+        var currentAttrValue = $(this).attr('href');
+
+
+        if (openTabSW === true) {
+            openTabSW = false;
+            $("#texto-izq").text("PREVENTA");
+            $('#estreno-1').hide();
+            $("#slideIzq").show();
+            close_accordion_section1();
+        } else {
+            if (openTabJH === true) {
+                openTabJH = false;
+                $("#texto-der").text("PREVENTA");
+                $("#slideDer").fadeIn(500);
+                $('#estreno-2').hide();
+                close_accordion_section2();
+            }
+            $("#slideIzq").fadeOut(500);
+            $("#texto-izq").text("ESTRENO 11 DE MARZO");
+            $('.accordion').removeClass('black');
+            $('.accordion').addClass('black');
+            openTabSW = true;
+            $('.accordion ' + currentAttrValue).slideDown(300).addClass('open');
+            $('#estreno-1').show().fadeIn(500);
+            $(this).addClass('active');
+        }
+
+        e.preventDefault();
+    });
+
+    
+    $('.accordion-section-title2').click(function (e) {
+        // Grab current anchor value
+        var currentAttrValue = $(this).attr('href');
+        if (openTabJH === true) {
+            openTabJH = false;
+            $("#texto-der").text("PREVENTA");
+            $('#estreno-2').hide();
+            $("#slideDer").show();
+            close_accordion_section2();
+        } else {
+            if (openTabSW === true) {
+                openTabSW = false;
+                $("#texto-izq").text("PREVENTA");
+                $("#slideIzq").fadeIn(500);
+                $('#estreno-1').hide();
+                close_accordion_section1();
+            }
+            $("#slideDer").hide(500);
+            $("#texto-der").text("ESTRENO 11 DE MARZO");
+            $('.accordion').removeClass('black');
+            $('.accordion').addClass('black');
+            openTabJH = true;
+            $('.accordion ' + currentAttrValue).slideDown(300).addClass('open');
+            $('#estreno-2').show().fadeIn(500);
+            $(this).addClass('active');
+        }
+
+        e.preventDefault();
+    });
+    $('.box-type').hide();
+    $('#estreno-1').hide();
+    $('#estreno-2').hide();
+    $("#slideIzq").hide();
+    $("#slideDer").hide();
+    $("#slideIzq").fadeOut(1000);
+    $("#slideDer").fadeOut(1000);
+    $("#slideIzq").fadeIn(1000);
+    $("#slideDer").fadeIn(1000);
+});
+
+$(".buy-ticket").hover(
+    function () {
+        $('.box-type').show().fadeIn(500);
+    }, 
+    function () {
+        $('.box-type').hide().fadeOut(50);
+    }
+);
+
+$(".promo-poster").hover(
+    function () {
+        $('.box-type').show().fadeIn(500);
+    },
+    function () {
+        $('.box-type').hide().fadeOut(50);
+    }
+);

@@ -1,0 +1,23 @@
+﻿$(".searchDay").click(function () {
+    var $a = $(this);
+    var div = $a.attr("data-id");
+    $a.parent().parent().children().each(function (index, element) {
+        var style = $(this).attr("class");
+        if (style != "barra_mesli") {
+            $(this).attr("class", "");
+        }
+    });
+    $a.parent().attr("class", "barradia_act");
+    var options = {
+        url: $a.attr("href"),
+        type: "get"
+    };
+    $.ajax(options).done(function (data) {
+        var $target = $("#M_" + div);
+        var $newHtml = $(data);
+        var $ul = $target.children();
+        var li = '<li>' + $ul.find('li:first').html() + ' </li>';
+        $ul.html(li + data);
+    });
+    return false;
+});
